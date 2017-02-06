@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         count = (TextView) findViewById(R.id.count);
-
+        //This is the test comment
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 
     }
